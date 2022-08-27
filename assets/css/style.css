@@ -555,6 +555,14 @@ main {
   line-height: 1.6;
 }
 
+/* What I am learning */
+.react-icon {
+  filter: invert(72%) sepia(64%) saturate(656%) hue-rotate(166deg) brightness(105%) contrast(97%);
+}
+.rails-icon {
+  filter: invert(15%) sepia(47%) saturate(7404%) hue-rotate(356deg) brightness(87%) contrast(113%);
+}
+
 
 /**
  * #testimonials 
@@ -583,19 +591,9 @@ main {
   scroll-snap-align: center;
 }
 
-.testimonials-avatar-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(15px, -25px);
-  background: var(--bg-gradient-onyx);
-  border-radius: 14px;
-  box-shadow: var(--shadow-1);
-}
+/* .testimonials-item-title { margin-bottom: 7px; } */
 
-.testimonials-item-title { margin-bottom: 7px; }
-
-.testimonials-text {
+.testimonials-text, .testimonials-text-link {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -606,7 +604,6 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 
 /**
  * #testimonials-modal
@@ -836,10 +833,15 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-list { 
+  padding: 20px; 
+}
 
+.skills-list-item {
+  display: inline-block;
+}
 
-.skills-item:not(:last-child) { margin-bottom: 15px; }
+/* .skills-item:not(:last-child) { margin-bottom: 15px; }
 
 .skill .title-wrapper {
   display: flex;
@@ -867,7 +869,7 @@ main {
   border-radius: inherit;
 }
 
-
+ */
 
 
 
@@ -1422,21 +1424,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-top: 25px;
   }
 
-  .testimonials-avatar-box {
+  /* .testimonials-avatar-box {
     transform: translate(30px, -30px);
     border-radius: 20px;
   }
 
   .testimonials-avatar-box img { width: 80px; }
-
-  .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
-  }
+ */
 
   .testimonials-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
+  }
+  .testimonials-text > a {
+    color: white;
   }
 
   /* testimonials modal */

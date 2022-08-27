@@ -1,24 +1,21 @@
-vCard - Personal Portfolio
+Jiyoung's Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Jiyoung Ko
+Jiyoung Ko
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
-
-Phone
-+1 (213) 352-2795
+contact@kojiyoung.com
 
 Birthday
 June 23, 1982
 
 Location
-Sacramento, California, USA
+Paphos, Cyprus 🇨🇾
 
 # navbar
 
